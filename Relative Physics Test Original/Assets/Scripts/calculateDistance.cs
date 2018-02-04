@@ -6,11 +6,11 @@ public class calculateDistance : MonoBehaviour {
 	bool isTracking;
 	private Vector3 distance;
 	public Camera arCamera;
-	// Update is called once per frame
+	//60Fps update
     void FixedUpdate () {
 		distance = arCamera.transform.position - this.transform.localPosition;
     }
-
+    //returns distance from camera to target
     public float getDistance() {
         return distance.magnitude;
     }
