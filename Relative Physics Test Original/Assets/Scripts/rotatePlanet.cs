@@ -19,7 +19,9 @@ public class rotatePlanet : MonoBehaviour {
 	void FixedUpdate () {
         calculateDistance calD = imageTarget.GetComponent<calculateDistance>();
         remapDist = Map(calD.getDistance());
-        rotationSpeed = 1 * ( remapDist * 10);
+		Debug.Log (remapDist);
+			
+		rotationSpeed = 1 * ( Mathf.Exp(remapDist * 5));
 		this.transform.RotateAround (point.transform.position, Vector3.up, 10 * Time.deltaTime * rotationSpeed);
 	}
     //Max Speed Update
