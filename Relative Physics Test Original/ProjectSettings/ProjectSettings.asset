@@ -359,9 +359,9 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: AR BABY
-  locationUsageDescription: 
-  microphoneUsageDescription: 
+  cameraUsageDescription: AR BABY!
+  locationUsageDescription: GEOLOCATION BABY!
+  microphoneUsageDescription: RECORD YOU BABY!
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
   switchSocketAllocatorPoolSize: 128
