@@ -14,6 +14,8 @@ public class rotatePlanet : MonoBehaviour {
 
 	//Text imports for live text.
 	public Text tText;
+	public Text tText2;
+	public Text vText;
 
     //Start up stuff
 	void Start () {
@@ -28,6 +30,8 @@ public class rotatePlanet : MonoBehaviour {
 		this.transform.RotateAround (point.transform.position, Vector3.up, 10 * Time.deltaTime * rotationSpeed);
 
 		tText.text = Mathf.Round(remapDist * 10) + ":1 Seconds";
+		tText2.text = Mathf.Round(remapDist * 10) + ":1 Seconds";
+		vText.text = Mathf.Round(rotationSpeed * 10) + " km/s";
 	}
     //Max Speed Update
     void Update() {
