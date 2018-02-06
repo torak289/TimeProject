@@ -4,13 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class rotatePlanet : MonoBehaviour {
+	
 	public GameObject point;
 	private float rotationSpeed = 1;
     private Vector3 dist;
     private float remapDist;
-    GameObject imageTarget;
-    public Image speedBar;
-    public Image speedYears;
+    private GameObject imageTarget;
+    public Image timeDilation;
+
+	//Text imports for live text.
+	public Text tText;
+
     //Start up stuff
 	void Start () {
         imageTarget = GameObject.Find("ImageTarget");
@@ -22,11 +26,14 @@ public class rotatePlanet : MonoBehaviour {
 		Debug.Log (remapDist);
 		rotationSpeed = 1 * ( Mathf.Exp(remapDist * 2.5f));
 		this.transform.RotateAround (point.transform.position, Vector3.up, 10 * Time.deltaTime * rotationSpeed);
+
+		tText.text = Mathf.Round(remapDist * 10) + ":1 Seconds";
 	}
     //Max Speed Update
     void Update() {
-        speedBar.fillAmount = remapDist;
-        speedYears.fillAmount = remapDist;
+		
+
+		timeDilation.fillAmount = remapDist;
     }
     //remap number range
     float Map(float value) {

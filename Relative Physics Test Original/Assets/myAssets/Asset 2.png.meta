@@ -1,15 +1,11 @@
 fileFormatVersion: 2
-guid: 84a4db38b5b08b2439efce18409688bb
-timeCreated: 1517779117
+guid: 28511794f9d82426db41cf1bf7fd3c69
+timeCreated: 1517925422
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: UIassets_0
-    21300002: UIassets_1
-    21300004: UIassets_2
-    21300006: UIassets_3
-    21300008: UIassets_4
-    21300010: UIassets_5
+    21300000: Asset 2_0
+    21300002: Asset 2_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -111,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UIassets_0
+      name: Asset 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 109
-        width: 250
-        height: 30
+        x: 566
+        y: 5
+        width: 560
+        height: 559
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,69 +121,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: UIassets_1
+      name: Asset 2_1
       rect:
         serializedVersion: 2
-        x: 349
-        y: 119
-        width: 80
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: UIassets_2
-      rect:
-        serializedVersion: 2
-        x: 5
+        x: 1
         y: 0
-        width: 250
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: UIassets_3
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 19
-        width: 80
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: UIassets_4
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 139
-        width: 53
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: UIassets_5
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 63
-        width: 37
-        height: 13
+        width: 559
+        height: 560
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
